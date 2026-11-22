@@ -1,0 +1,95 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="StockMaster.App"
+             RequestedThemeVariant="Light">
+
+  <Application.Styles>
+    <FluentTheme />
+    <!-- Estilos propios del control DataGrid (tabla) -->
+    <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml" />
+
+    <!-- ===== Estilos propios de StockMaster ===== -->
+
+    <!-- Tarjetas blancas con sombra suave -->
+    <Style Selector="Border.card">
+      <Setter Property="Background" Value="White" />
+      <Setter Property="CornerRadius" Value="14" />
+      <Setter Property="Padding" Value="20" />
+      <Setter Property="BoxShadow" Value="0 2 10 0 #14000000" />
+    </Style>
+
+    <!-- Textos -->
+    <Style Selector="TextBlock.label">
+      <Setter Property="FontSize" Value="12" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="Foreground" Value="#374151" />
+      <Setter Property="Margin" Value="0,12,0,4" />
+    </Style>
+    <Style Selector="TextBlock.statLabel">
+      <Setter Property="FontSize" Value="12" />
+      <Setter Property="Foreground" Value="#6B7280" />
+    </Style>
+    <Style Selector="TextBlock.statValue">
+      <Setter Property="FontSize" Value="26" />
+      <Setter Property="FontWeight" Value="Bold" />
+      <Setter Property="Foreground" Value="#1E1B4B" />
+      <Setter Property="Margin" Value="0,4,0,0" />
+    </Style>
+
+    <!-- Cajas de texto -->
+    <Style Selector="TextBox">
+      <Setter Property="CornerRadius" Value="8" />
+      <Setter Property="Padding" Value="10,8" />
+    </Style>
+
+    <!-- Botones -->
+    <Style Selector="Button">
+      <Setter Property="CornerRadius" Value="8" />
+      <Setter Property="Padding" Value="14,10" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="HorizontalContentAlignment" Value="Center" />
+    </Style>
+    <Style Selector="Button.primary">
+      <Setter Property="Background" Value="#4F46E5" />
+      <Setter Property="Foreground" Value="White" />
+    </Style>
+    <Style Selector="Button.primary:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="#4338CA" />
+      <Setter Property="Foreground" Value="White" />
+    </Style>
+    <Style Selector="Button.secondary">
+      <Setter Property="Background" Value="#E5E7EB" />
+      <Setter Property="Foreground" Value="#1F2937" />
+    </Style>
+    <Style Selector="Button.secondary:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="#D1D5DB" />
+      <Setter Property="Foreground" Value="#1F2937" />
+    </Style>
+    <Style Selector="Button.danger">
+      <Setter Property="Background" Value="#DC2626" />
+      <Setter Property="Foreground" Value="White" />
+    </Style>
+    <Style Selector="Button.danger:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="#B91C1C" />
+      <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <!-- Etiquetas de estado de stock (verde / amarillo / rojo) -->
+    <Style Selector="Border.pill">
+      <Setter Property="CornerRadius" Value="10" />
+      <Setter Property="Padding" Value="10,2" />
+      <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+    <Style Selector="Border.pill TextBlock">
+      <Setter Property="FontSize" Value="12" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    <Style Selector="Border.ok"><Setter Property="Background" Value="#DCFCE7" /></Style>
+    <Style Selector="Border.ok TextBlock"><Setter Property="Foreground" Value="#166534" /></Style>
+    <Style Selector="Border.warn"><Setter Property="Background" Value="#FEF3C7" /></Style>
+    <Style Selector="Border.warn TextBlock"><Setter Property="Foreground" Value="#92400E" /></Style>
+    <Style Selector="Border.bad"><Setter Property="Background" Value="#FEE2E2" /></Style>
+    <Style Selector="Border.bad TextBlock"><Setter Property="Foreground" Value="#991B1B" /></Style>
+  </Application.Styles>
+
+</Application>

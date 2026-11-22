@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "De2N9Y+Th6s=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.30\\microsoft.netcore.app.host.win-x64.8.0.30.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "filePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "filePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "filePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "filePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "filePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\usuario\\Desktop\\StockMaster\\StockMaster.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
